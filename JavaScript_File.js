@@ -20,3 +20,13 @@ document.write(4 + 3);  //first expression
 //}
 
 //I just wrote down the example of the function and how to call it from the html file for future reference. :)
+
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
+
+function myFunction()  {
+    var sentence = "I am learning";
+    sentence += " a lot from this book!";
+    document.getElementById("Concatenate").innerHTML = sentence;
+}
